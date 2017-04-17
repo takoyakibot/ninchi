@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'chart.js',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.6
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData chart.js
+8 silly fetchOtherPackageData chart.js
+9 silly cache add args [ 'chart.js', null ]
+10 verbose cache add spec chart.js
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'chart.js',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'chart.js',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'chart.js',
+11 silly cache add   spec: '/Applications/MAMP/htdocs/ninchi/scripts/chart.js',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 8fd0c95d4079dcd1ece3641d0f129270fe141c9d
+13 verbose addTmpTarball /Applications/MAMP/htdocs/ninchi/scripts/chart.js not in flight; adding
+14 verbose correctMkdir /Users/aokiyuuta/.npm correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from /Applications/MAMP/htdocs/ninchi/scripts/chart.js
+16 verbose tar unpack /Applications/MAMP/htdocs/ninchi/scripts/chart.js
+17 verbose tar unpacking to /var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81
+18 silly gentlyRm /var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81 is being purged
+19 verbose gentlyRm don't care about contents; nuking /var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /Applications/MAMP/htdocs/ninchi/scripts/chart.js
+22 error addLocal Could not install /Applications/MAMP/htdocs/ninchi/scripts/chart.js
+23 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData  error for chart.js { [Error: ENOENT: no such file or directory, open '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json']
+23 silly fetchPackageMetaData   errno: -2,
+23 silly fetchPackageMetaData   code: 'ENOENT',
+23 silly fetchPackageMetaData   syscall: 'open',
+23 silly fetchPackageMetaData   path: '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json' }
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Starting
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json'
+29 verbose stack     at Error (native)
+30 verbose cwd /Applications/MAMP/htdocs/ninchi/scripts
+31 error Darwin 15.6.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "chart.js" "--save"
+33 error node v4.5.0
+34 error npm  v3.10.6
+35 error path /var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json
+36 error code ENOENT
+37 error errno -2
+38 error syscall open
+39 error enoent ENOENT: no such file or directory, open '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json'
+40 error enoent ENOENT: no such file or directory, open '/var/folders/pq/7xg92gp13ml3h8g71fjhhnmr0000gn/T/npm-48499-d417bf94/unpack-50485b81/package.json'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]
