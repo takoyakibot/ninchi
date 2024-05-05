@@ -402,9 +402,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/jquery-3.2.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/script/jquery-3.5.0.min.js" />
     <entry file="file://$PROJECT_DIR$/scripts/Chart.Radar.js" />
-    <entry file="file://$PROJECT_DIR$/scripts/jquery-3.2.0.min.js">
+    <entry file="file://$PROJECT_DIR$/scripts/jquery-3.5.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
